@@ -1,0 +1,328 @@
+.top {
+  margin-top: 60px;
+}
+.top .top__block {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 4%;
+  gap: 50px;
+}
+.top .top__block .top__image {
+  width: 50%;
+  flex: 1;
+}
+.top .top__block .top__text {
+  width: 50%;
+}
+.top .top__block .swiper-wrapper img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.top .top__block .swiper-button-next,
+.top .top__block .swiper-button-prev {
+  opacity: 0;
+}
+.top .top__block .top__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.top .top__block .top__header h2 {
+  margin-bottom: 0;
+}
+.top .top__block .top__header .top__tags {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+}
+.top .top__block .top__header .top__tags .top__tag {
+  background-color: orange;
+  color: #fff;
+  padding: 2px;
+}
+.top .top__block .top__info {
+  margin: 10px 0 30px 20px;
+}
+.top .top__block .top__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  position: relative;
+  background: orange;
+  border: 1px solid orange;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+  text-align: left;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+.top .top__block .management_button {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.top .top__block .management_button button {
+  background-color: orange;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.contents {
+  margin: 0 auto;
+}
+.contents .contents__inner .contents__block {
+  max-width: 1080px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px 2%;
+  display: block;
+}
+.contents .contents__inner .contents__block .contents__section {
+  margin-bottom: 20px;
+  border-bottom: 2px dotted lightgray;
+}
+.contents .contents__inner .contents__block .contents__section .contents__title {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.contents .contents__inner .contents__block .contents__section .contents__text {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+.contents .contents__inner .contents__block .contents__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.contents .contents__inner .contents__block .contents__list .contents__item {
+  margin-bottom: 10px;
+}
+.contents .contents__inner .contents__block .contents__list .contents__item .contents__info {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+}
+.contents .contents__inner .contents__block .contents__list .contents__item .contents__info.message {
+  flex-direction: column;
+}
+.contents .contents__inner .contents__block .contents__list .contents__item .contents__info.under {
+  border-bottom: none;
+}
+.contents .contents__inner .contents__block .contents__list .contents__item .contents__info .contents__label {
+  width: 15%;
+  font-weight: bold;
+}
+.contents .contents__inner .contents__block .contents__list .contents__item .contents__info .contents__label.message {
+  margin-bottom: 5px;
+}
+.contents .contents__inner .contents__block .contents__list .contents__item .contents__info .contents__value {
+  width: 85%;
+  text-align: left;
+}
+.contents .contents__inner .contents__block .basic_info_text {
+  background: #f3f3f3;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 10px;
+}
+.contents .contents_map {
+  margin-top: 30px;
+}
+
+.edit-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+.edit-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.edit-form form {
+  display: flex;
+  flex-direction: column;
+}
+.edit-form form div {
+  margin-bottom: 15px;
+}
+.edit-form form div label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.edit-form form div input, .edit-form form div textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.edit-form form div textarea {
+  height: 100px;
+  resize: vertical;
+}
+.edit-form form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.edit-form form button:hover {
+  background-color: darkorange;
+}
+
+.contents__section {
+  margin-bottom: 20px;
+}
+.contents__section .contents__title {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.contents__section .contents__text {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.contents__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.contents__list .contents__item {
+  margin-bottom: 10px;
+}
+.contents__list .contents__item .contents__info {
+  display: flex;
+  width: 100%;
+}
+.contents__list .contents__item .contents__info .contents__label {
+  width: 15%;
+  font-weight: bold;
+}
+.contents__list .contents__item .contents__info .contents__value {
+  width: 85%;
+  text-align: left;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  color: #ff6f61;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.loading-spinner {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #ff6f61; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+  margin-right: 15px;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.contents_map {
+  margin-top: 30px;
+}
+
+.edit-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+.edit-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.edit-form form {
+  display: flex;
+  flex-direction: column;
+}
+.edit-form form div {
+  margin-bottom: 15px;
+}
+.edit-form form div label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.edit-form form div input, .edit-form form div textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.edit-form form div textarea {
+  height: 100px;
+  resize: vertical;
+}
+.edit-form form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.edit-form form button:hover {
+  background-color: darkorange;
+}
+/*# sourceMappingURL=facility_item.css.map */

@@ -1,0 +1,103 @@
+.main_view {
+  position: relative;
+  margin: 60px auto 0;
+  padding: 0 0 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main_view::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 280px;
+  background: #d6e9bf;
+  z-index: 1;
+}
+.main_view img {
+  width: 95%;
+  border-radius: 30px;
+  margin: auto;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+.main_view .search_box {
+  position: absolute;
+  bottom: 10rem;
+  z-index: 2;
+  right: 200px;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: block;
+  margin-left: 5rem;
+  padding: 0;
+  right: 15rem;
+  width: 20rem;
+}
+.main_view .search_box .search_title {
+  background-color: #d6e9bf;
+  border-radius: 1rem 1rem 0 0;
+  font-size: 1rem;
+  padding: 0.3rem 1rem 0.3rem 3rem;
+  text-align: left;
+}
+.main_view .search_box .search_input {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 0.3rem auto 0.3rem;
+  padding: 0.3rem 1rem 0rem 1rem;
+}
+.main_view .search_box input {
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  height: 40px;
+  max-width: 1024px;
+  width: 80%;
+  padding-left: 5px;
+}
+.main_view .search_box button {
+  background: #d6e9bf;
+  border-radius: 10px;
+  height: 40px;
+  width: 20%;
+  text-align: center;
+}
+.main_view .search_box .search_control_item {
+  margin: 0 0.5rem 0.5rem;
+}
+.main_view .search_box .search_control_item a {
+  align-items: center;
+  background: none;
+  background: #d6e9bf;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 1px 1px 2px 0 hsla(30deg, 4%, 67%, 0.4);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Zen Maru Gothic, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  outline: none;
+  padding: 1rem 5rem;
+  margin: 5px 5px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s, text-shadow 0.2s, background-color 0.2s, border-color 0.2s, opacity 0.2s;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=mv.css.map */

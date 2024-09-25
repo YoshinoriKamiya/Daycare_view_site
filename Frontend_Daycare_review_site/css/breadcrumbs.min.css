@@ -1,0 +1,2 @@
+.breadcrumbs{margin-top:80px;display:flex;position:fixed;align-items:center;font-size:14px;padding:10px 4%;background-color:#f7f1e2}.breadcrumbs a{color:#242424;text-decoration:none;font-weight:bold;transition:color .3s ease}.breadcrumbs a:hover{color:#00796b}.breadcrumbs span{margin:0 5px;color:#6b6b6b}.breadcrumbs .breadcrumbs>a:first-child{margin-right:10px;color:#3f51b5;font-weight:bold}.breadcrumbs .breadcrumbs>span:last-child{color:#000;font-weight:bold}
+/*# sourceMappingURL=breadcrumbs.min.css.map */

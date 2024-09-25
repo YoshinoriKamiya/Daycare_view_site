@@ -1,0 +1,37 @@
+.breadcrumbs {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px 4%;
+    background-color:#f7f1e2;
+  
+    a {
+      color: #242424;  // 明るいティールカラー
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+  
+      &:hover {
+        color: #00796B;  // ホバー時に少し暗めのティール
+      }
+    }
+  
+    span {
+      margin: 0 5px;
+      color: #6b6b6b;  // 矢印の色を少し薄くする
+    }
+  
+    .breadcrumbs > a:first-child {
+      margin-right: 10px;
+      color: #3f51b5;  // 「保育ねっと」の特別な色
+      font-weight: bold;
+    }
+  
+    // 最後のリンクのスタイル
+    .breadcrumbs > span:last-child {
+      color: #000;  // 最後の項目は黒にして強調
+      font-weight: bold;
+    }
+  }
+  

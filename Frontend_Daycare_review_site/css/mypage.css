@@ -1,0 +1,55 @@
+.mypage-container {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 20px;
+  background-color: #fff; /* Light green background */
+  border: 2px solid #6abf69; /* Green border around the entire container */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mypage-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.mypage-header h1 {
+  font-size: 2rem;
+}
+.mypage-header p {
+  font-size: 1.2rem;
+}
+
+.user-info .info-item {
+  margin-bottom: 15px;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff; /* Lighter green background for each info item */
+  border-radius: 5px;
+}
+.user-info .info-item label {
+  width: 20%;
+}
+.user-info .info-item span {
+  color: #333;
+  width: 70%;
+}
+
+.edit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #6abf69;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+.edit-button:hover {
+  background-color: #4b8f47; /* Darker green on hover */
+}
+/*# sourceMappingURL=mypage.css.map */

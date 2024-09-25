@@ -1,0 +1,9 @@
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ serializer.image_1 }}
+    {% if item.image_1 %}
+        <p>現在の画像: {{ item.image_1.name }}</p>
+        <img src="{{ item.image_1.url }}" alt="Current Image 1" style="max-width: 200px; height: auto;">
+    {% endif %}
+    <button type="submit">Save</button>
+</form>

@@ -1,0 +1,42 @@
+.login {
+  max-width: 400px;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.login h2 {
+  text-align: center;
+  color: #333;
+}
+.login .form-group {
+  margin-bottom: 15px;
+}
+.login .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+.login .form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.login button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.login button:hover {
+  background-color: #45a049;
+}
+/*# sourceMappingURL=login.css.map */

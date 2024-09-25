@@ -1,0 +1,84 @@
+.news {
+  background: #fffbf3;
+  padding: 80px 0;
+  position: relative;
+}
+.news::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -40px;
+  width: 100%;
+  height: 60px;
+  background: url(../../images/about_intro_wave.png) center center repeat-x;
+  background-size: 1500px 60px;
+}
+.news .block_inner {
+  padding: 0 4%;
+}
+.news h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.news .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.news .news_list {
+  margin: 0 auto;
+  padding: 0 20px 10px;
+  padding-bottom: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
+.news .news_item {
+  border-bottom: 1px dotted #a46305;
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.news .news_item .text {
+  font-size: 1.325rem;
+}
+.news .news_header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.news .news_header .category {
+  background-color: cadetblue;
+  padding: 0 5px;
+  color: #fff;
+  font-size: 0.875rem;
+  border-radius: 2px;
+}
+.news .more-btn {
+  margin-top: 30px;
+  text-align: center;
+}
+.news .more-btn button {
+  font-size: 1.3rem;
+  padding: 10px 8%;
+  border-radius: 30px;
+  position: relative;
+  color: #a46305;
+  box-shadow: 4px 4px 0px 0px #d6e9bf;
+}
+.news .more-btn button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: calc(100% - 5px);
+  height: calc(100% - 5px);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 30px;
+  border: 2px dotted #d6e9bf;
+}
+/*# sourceMappingURL=news.css.map */
